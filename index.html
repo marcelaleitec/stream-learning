@@ -137,10 +137,10 @@
       <section class="contact">
         <p> Ficou interessado e quer mais detalhes da solução? <br>
           Não perca tempo! Entre em contato! </p>
-        <form>
+        <form id="contactForm" >
           <label for="nome">Nome:</label> <input id="nome" type="text" >
           <label for="email">Email:</label><input id="email" type="email" >
-          <label for="telefone">Telefone:</label><input id="telefone" type="tel" placeholder="(xx)xxxxx-xxxx" >
+          <label for="telefone">Telefone:</label><input id="telefone" type="text" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" placeholder="xx xxxxx-xxxx" >
           <input id="sendBtn" type="submit" value="Enviar">
         </form>
       </section>
