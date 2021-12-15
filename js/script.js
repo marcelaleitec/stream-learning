@@ -1,6 +1,6 @@
 document
-  .getElementById('sendBtn')
-  .addEventListener('click', validaFormulario)
+  .getElementById('contactForm')
+  .addEventListener('submit', validaFormulario)
 
 function validaFormulario() {
   if (
