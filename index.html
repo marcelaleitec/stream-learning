@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Trispace:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="https://img.icons8.com/fluency/48/000000/spinner-frame-3.png"
+      type="image/png"
+      sizes="16x16"
+    />
+    <title>StreamLearning</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        StreamLearning <br />
+        Aprendizado com base em preferências
+      </h1>
+
+      <div class="header-menu">
+        <nav>
+          <ul>
+            <li><a href="#objetivo">Objetivo</a></li>
+            <li><a href="#referencia1">Referencias</a></li>
+            <li><a href="#ideia">Ideia</a></li>
+            <li><a href="#gamificacao">Gamificação</a></li>
+            <li><a href="#comunicacao">Comunicação</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="carrossel">
+        <button class="carrossel_btn carrossel_btn--left is-hidden">
+          <img src="images/button-left.png" alt="Botão da esquerda do carrossel">
+        </button>
+        <div class="carrossel_container">
+          <ul class="carrossel_track">
+            <li class="carrossel_slide current-slide">
+              <img class="carrossel_img" src="images/elearning1.jpg" alt="Imagem de plataformas de video de streaming">
+            </li>
+            <li class="carrossel_slide">
+              <img class="carrossel_img" src="images/elearning2.jpg" alt="Imagem de plataformas de musica de streaming">
+            </li>
+            <li class="carrossel_slide">
+              <img class="carrossel_img" src="images/elearning3.jpg" alt="Imagem de criança negra com fone de ouvido">
+            </li>
+            <li class="carrossel_slide">
+              <img class="carrossel_img" src="images/elearning4.jpg" alt="Imagem de notebook apoiado por um livro dando ideia de fonte de conhecimento">
+            </li>
+          </ul>
+        </div>
+        <button class="carrossel_btn carrossel_btn--right">
+          <img src="images/button-right.png" alt="Botão da direita do carrossel">
+        </button>
+
+        <div class="carrossel_nav">
+          <button class="carrossel_indice current-slide"></button>
+          <button class="carrossel_indice"></button>
+          <button class="carrossel_indice"></button>
+          <button class="carrossel_indice"></button>
+        </div>
+      </div>
+      
+    </header>
+    <main>
+      <p id="objetivo">
+        O objetivo desse projeto é apresentar uma solução de acesso à educação
+        através da tecnologia. <br />
+        <br />
+        A solução apresentada é o aprendizado com base em preferências, em que o
+        estudante escolhe qual assunto irá explorar por meio das suas
+        plataformas de streaming favoritas.
+      </p>
+    
+      <section></section>
+      <a href="#" class="back-to-top"></a>
+  
+      <p>Vejam algumas referencias do assunto:</p>
+      <div class="referencias">
+        <p id="referencia1">
+          O Brasil está entre os cinco maiores mercados de ‘video on demand’ no
+          mundo inteiro. <br />(Forbes Money, março 2021)
+        </p>
+
+        <p id="referencia2">
+          98% dos usuários de internet consomem algum tipo de conteúdo via
+          streaming de áudio ou vídeo. <br />(Kantar IBOPE Media, novembro 2020)
+        </p>
+      </div>
+
+      <div class="ideiaprincipal">
+      <p id="ideia"> Vamos expandir o conhecimento a partir de escolhas satisfatórias para o
+        estudante. </p>
+      <p> A ideia aqui é que na cena da nossa série/filme favorito tenha focos de
+        aprendizado nos mais diversos assuntos. </p>
+        <p>Já pensou em assistir
+        Grey's Anatomy e ter noções reais de Biologia ou Segurança do Trabalho?
+        É bem possível!</p>
+      </p>
+      <p>
+        <img
+          src="images/greysanatomy1.jpg"
+          alt="Imagem da personagem Meredith Grey usando capacete elmo"
+        />
+        <img
+          src="images/greysanatomy2.jpg"
+          alt="Imagem de homem grávido"
+        />
+      </p>
+      </div>
+      
+      <p id="gamificacao">
+        Gamificação <br> <br>
+        E para tornar ainda mais dinâmico e atrativo o aprendizado usaremos
+        sistema de gamificação, em que a partir de níveis de camada e tempo de
+        consumo de aprendizado o estudante irá ganhando experiência.
+      </p>
+
+      <p id="comunicacao">
+        Comunicação <br> <br>
+        Por fim teremos um espaço dedicado a troca de experiências, comentários,
+        elogios e sugestões de melhorias dentro do próprio site.
+      </p>
+    </main>
+
+    <footer>
+      <section class="contact">
+        <p> Ficou interessado e quer mais detalhes da solução? <br>
+          Não perca tempo! Entre em contato! </p>
+        <form>
+          <label for="nome">Nome:</label> <input id="nome" type="text" >
+          <label for="email">Email:</label><input id="email" type="email" >
+          <label for="telefone">Telefone:</label><input id="telefone" type="tel" placeholder="(xx)xxxxx-xxxx" >
+          <input id="sendBtn" type="submit" value="Enviar">
+        </form>
+      </section>
+
+      <a class="attributeLink" href="https://icons8.com/icon/HmMc2E8wC6dc/stream"
+        >Stream icon by Icons8</a
+      >
+      
+    </footer>
+
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/carrossel.js"></script>
+  </body>
+</html>
